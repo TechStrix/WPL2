@@ -1,0 +1,19 @@
+$(document).ready(function(){
+  $(document).keypress(function(e){
+    if(e.which == 32){
+     $("#i2").animate({left:'250px',
+                       opacity:'0.5',
+                       height:'150px',
+                       width:'150px'
+                     }).animate({left:'100px',
+                                 opacity:'0.7',
+                                 height:'100px',
+                                 width:'200px'
+                               }).animate({left:'300px',
+                                           opacity:'1',
+                                           height:'300px',
+                                           width:'500px'
+                                         })
+    }
+  });
+})

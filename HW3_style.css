@@ -1,0 +1,132 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+
+
+.menu a {
+    transition:all linear 0.15s;
+    color:#00000;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#f7f7f7;
+}
+
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+
+.menu > ul > li > a {
+    padding:10px 30px;
+    display:inline-block;
+    text-shadow:0px 0px 0px rgba(0,0,0,0.4);
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#000000;
+}
+
+.jumbotron#j1{
+  background-image: url("watch1.jpeg");
+  background-size:cover;
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+
+.jumbotron#j2{
+  background-image: url("drone1.jpeg");
+  background-size:cover;
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+
+.jumbotron#j3{
+  background-image: url("cam1.jpeg");
+  background-size:cover;
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+
+.jumbotron#j4{
+  background-image: url("con1.jpeg");
+  background-size:cover;
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+
+
+.overlay1{
+  display: none;
+  color: red;
+}
+.overlay2{
+  display: none;
+  color:red;
+}
+
+/*positioning containers and carousel text*/
+
+
+.carousel-inner > .item > img{
+       width:100%;
+       height:700px;
+     }
+.jumbotron#j1 > .container > h1{
+  color:white;
+}
+.jumbotron#j2 > .container > h1{
+  color:white;
+}
+
+.jumbotron#j3 > .container > h1{
+  color:white;
+}
+.jumbotron#j4 > .container > h1{
+  color:black;
+}
+.thumbnail{
+
+  display:inline-block;
+
+
+}
+
+table{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+button{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
